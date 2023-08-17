@@ -1,0 +1,46 @@
+1 process for Writer created.
+2 process for Reader created.
+3 process for Reader created.
+4 process for Writer created.
+5 process for Writer created.
+6 process for Writer created.
+7 process for Reader created.
+8 process for Reader created.
+9 process for Reader created.
+10 process for Writer created.
+11 process for Reader created.
+12 process for Writer created.
+13 process for Reader created.
+14 process for Writer created.
+15 process for Reader created.
+-----Reader visit critical section.
+This is Reader, with id=3, shared_data=0.
+-----Writer(the fitst) visit critical section.
+16 process for Reader created.
+17 process for Writer created.
+18 process for Writer created.
+19 process for Writer created.
+20 process for Writer created.
+-----Reader left critical section.
+This is Writer, with id=4.
+This is Writer, with id=5.
+This is Writer, with id=6.
+This is Writer, with id=10.
+This is Writer, with id=12.
+This is Writer, with id=14.
+This is Writer, with id=1.
+This is Writer, with id=17.
+This is Writer, with id=18.
+This is Writer, with id=19.
+This is Writer, with id=20.
+-----Writer(the last) left critical section.
+-----Reader visit critical section.
+This is Reader, with id=7, shared_data=20.
+This is Reader, with id=8, shared_data=20.
+This is Reader, with id=9, shared_data=20.
+This is Reader, with id=11, shared_data=20.
+This is Reader, with id=13, shared_data=20.
+This is Reader, with id=15, shared_data=20.
+This is Reader, with id=2, shared_data=20.
+This is Reader, with id=16, shared_data=20.
+-----Reader left critical section.
